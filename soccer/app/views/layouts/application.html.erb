@@ -3,14 +3,19 @@
   <head>
     <title>Soccer</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
   </head>
 
   <body>
-  	<%= render 'partials/navbar' %>
-    <%= render 'partials/slider' %>
+    <%= render 'partials/navbar' %>
     <%= yield %>
+  
+    <%= render 'partials/contact'%>
+    <%= render 'partials/footer'%>
+     <%= render 'partials/flash'%> 
   </body>
+
 </html>

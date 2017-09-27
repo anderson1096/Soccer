@@ -1,7 +1,7 @@
 <div class="container">
 	<header>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav1">
         				<span class="sr-only">Menú</span>
@@ -9,20 +9,32 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="/">ET</a>
+      				<div class="container-fluid">
+      					<a class="navbar-brand" href="/">
+      						<img id="logo" class="img-responsive" alt="Brand" src="<%= asset_path 'final-logo.png'%>">
+      					</a>
+      				</div>
       			</div>
 				<div class="collapse navbar-collapse" id="nav1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="">¿Quiénes Somos?</a></li>
-						<li><a href="">Misión</a></li>
-						<li><a href="">Visión</a></li>
-						<li><a href="">Contáctenos</a></li>
+						<li><a href="/">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Club<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="/institution/about">¿Quiénes Somos?</a></li>
+								<li><a href="/institution/mision">Misión</a></li>
+								<li><a href="/institution/vision">Visión</a></li>
+							</ul>
+						</li>
+						<li><a href="/gallery/index">Galería</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
 								<span class="glyphicon glyphicon-user"> <span class="caret"></span></span>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Iniciar Sesión</a></li>
+								<li><a href="/users/sign_in">Iniciar Sesión</a></li>
 							</ul>
 						</li>
 					</ul>

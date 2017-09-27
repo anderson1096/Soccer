@@ -1,0 +1,96 @@
+// Place all the styles related to the institution controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Dorado */
+$dorado-escudo: #997833;
+/* Azul */
+$azul-escudo: #eeeeee;
+/* Dorado */
+$blanco-escudo: white;
+
+body{
+
+}
+#about{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#img-about{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#about-section{
+  background-color: $blanco-escudo;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#about-header{
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#about-header img{
+  width: 100%;
+}
+#mision{
+  padding-top: 60px;
+  background-color: $blanco-escudo;
+  color: black;
+  padding-bottom: 70px;
+}
+#mision-header{
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#mision-header img{
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#img-mision{
+  width: 100%;
+  padding-left: 60px;
+}
+#mision-section{
+  background-color: $blanco-escudo;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#vision{
+  padding-top: 80px;
+  background-color: $blanco-escudo;
+  color: black;
+  padding-bottom: 60px;
+}
+#vision-header{
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#vision-header img{
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#img-vision{
+  width: 80%;
+  padding-left: 60px;
+}
+#vision-section{
+  background-color: $blanco-escudo;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+

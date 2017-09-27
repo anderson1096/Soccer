@@ -1,0 +1,35 @@
+// Place all the styles related to the gallery controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Dorado */
+$dorado-escudo: #997833;
+/* Azul */
+$azul-escudo: #eeeeee;
+/* Dorado */
+$blanco-escudo: white;
+
+#galeria{
+  padding-top: 0px;
+  background-color: $azul-escudo;
+  padding-bottom: 50px;
+}
+#galeria div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#galeria div img{
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#galeria-section{
+  padding-top: 60px;
+  background-color: $azul-escudo;
+}
+#galeria-section h2{
+  color: black;
+  font-size: 80px;
+  padding-bottom: 50px;
+}
