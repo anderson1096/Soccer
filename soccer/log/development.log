@@ -1818,6 +1818,7 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2017-09-08 23:24:05 -0500
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by WelcomeController#index as HTML
@@ -22441,3 +22442,5 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 1886ms (Views: 1872.6ms | ActiveRecord: 0.0ms)
 
 
+=======
+>>>>>>> ac24b1242bfe3e5648699dab89473aedc6997701
