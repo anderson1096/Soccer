@@ -1,0 +1,145 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Dorado */
+$dorado-escudo: #997833;
+/* Azul */
+$azul-escudo: #0B2161;
+/* Dorado */
+$blanco-escudo: white;
+
+body{
+	padding-top: 55px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
+.container-fluid{
+  height: 80px;
+  font-size: 28px;
+}
+
+#nav1 #inicio:hover{
+  color: green;
+}
+#nav1 #inicio:focus{
+  color: green;
+}
+#nav1 #gale:hover{
+  color: green;
+}
+#nav1 #gale:focus{
+  color: green;
+}
+#nav1 #club a:hover{
+  color: green;
+}
+#nav1 #club a:focus{
+  color: green;
+}
+.dropdown-menu{
+  background-color: black;
+  font-size: 20px;
+}
+.dropdown-menu li a{
+  color: #9d9d9d;
+}
+.dropdown-menu li a:hover{
+  background-color: black;
+}
+
+#login{
+  border: 1px solid green;
+  border-radius: 5%;
+  background-color: green;
+  color: black;
+}
+#login:hover{
+  background-color: black;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5%;
+}
+
+#carousel-1{
+	margin-right: auto;
+	margin-left: auto;
+  padding-top: 0px;
+}
+
+#button-collapse{
+  margin-top: 25px;
+}
+.navbar{
+	background-color: rgba(0,0,0,1);
+}
+.navbar-collapse.in{
+  background-color: black;
+}
+.navbar-collapse{
+  background-color: black;
+}
+
+.navbar-collapse.in #login:hover{
+  background-color: black;
+  color: green;
+  border: 1px solid black;
+  border-radius: 5%;
+
+}
+.navbar-collapse.in #login{
+  background-color: green;
+  color: black;
+  border-radius: 5%;
+  border: 1px solid green;
+}
+.navbar-brand {
+  padding: 0px;
+  width: 300px;
+  height: 60px;
+  margin-top: 0px;
+}
+.navbar-brand> img {
+  height: 130%;
+  padding: 0px;
+  width: 120%;
+  margin-top: 5px;
+  margin-left: 0px;
+  
+}
+.navbar-right{
+  padding-top: 15px;
+  padding-right: 35px;
+
+}
+
+
+#footer-section{
+  background-color: black;
+  color: #bfbfbf;
+  vertical-align: middle;
+}
+#footer-section p{
+  padding-top: 10px;
+  vertical-align: middle;
+}
+#contact-section{
+  background-color: black;
+  color: #bfbfbf;
+}
+#contact-section img{
+  width: 40%;
+  height: 100%;
+  border-color: green;
+  border-width: 4px;
+}
+#div-img-develop{
+  padding-top: 60px;
+}
+#div-img-develop p{
+  padding-top: 10px;
+}
+#flash-container{
+  background-color: black;
+  color: green;
+}

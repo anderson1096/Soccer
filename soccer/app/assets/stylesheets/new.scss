@@ -12,6 +12,15 @@ body {
 }
 #links a{
 	color: green;
+  font-size: 20px;
+}
+#links2 a{
+  color: green;
+  font-size: 20px;
+}
+#links3 a{
+  color: green;
+  font-size: 20px;
 }
 .form-signin {
   max-width: 330px;
@@ -60,4 +69,22 @@ body {
 }
 #label-remember{
 	font-size: 15px;
+}
+.form-registration #inputEmail:hover{
+  border-color: green;
+}
+.form-registration #inputEmail:focus{
+  border-color: green;
+}
+.form-registration #inputPassword:hover{
+  border-color: green;
+}
+.form-registration #inputPassword:focus{
+  border-color: green;
+}
+.form-registration #inputPassword2:hover{
+  border-color: green;
+}
+.form-registration #inputPassword2:focus{
+  border-color: green;
 }
