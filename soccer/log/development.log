@@ -28572,3 +28572,319 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 95ms (Views: 90.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-12 11:57:39 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (1476.5ms)
+  Rendered welcome/index.html.erb within layouts/application (1489.8ms)
+  Rendered partials/_navbar.html.erb (7.4ms)
+  Rendered partials/_contact.html.erb (1.4ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 1752ms (Views: 1724.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 11:57:49 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (24.2ms)
+  Rendered partials/_navbar.html.erb (2.1ms)
+  Rendered partials/_contact.html.erb (1.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 109ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:03:38 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (26.9ms)
+  Rendered partials/_navbar.html.erb (2.7ms)
+  Rendered partials/_contact.html.erb (2.0ms)
+  Rendered partials/_footer.html.erb (0.8ms)
+  Rendered partials/_flash.html.erb (0.7ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:03:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (6.6ms)
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+  Rendered partials/_navbar.html.erb (3.7ms)
+  Rendered partials/_contact.html.erb (1.9ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 144ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:03:47 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (27.2ms)
+  Rendered partials/_navbar.html.erb (2.5ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 109ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:08:47 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (22.9ms)
+  Rendered partials/_navbar.html.erb (2.2ms)
+  Rendered partials/_contact.html.erb (1.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 261ms (Views: 257.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:08:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (4.0ms)
+  Rendered welcome/index.html.erb within layouts/application (6.8ms)
+  Rendered partials/_navbar.html.erb (2.4ms)
+  Rendered partials/_contact.html.erb (2.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 107ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:08:56 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (36.7ms)
+  Rendered partials/_navbar.html.erb (2.2ms)
+  Rendered partials/_contact.html.erb (1.7ms)
+  Rendered partials/_footer.html.erb (0.8ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 121ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:11:22 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (23.1ms)
+  Rendered partials/_navbar.html.erb (2.3ms)
+  Rendered partials/_contact.html.erb (1.4ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 106ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:11:24 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (23.2ms)
+  Rendered partials/_navbar.html.erb (2.2ms)
+  Rendered partials/_contact.html.erb (1.3ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:13:00 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (375.6ms)
+  Rendered welcome/index.html.erb within layouts/application (380.0ms)
+  Rendered partials/_navbar.html.erb (7.7ms)
+  Rendered partials/_contact.html.erb (1.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 528ms (Views: 509.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:13:04 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (29.2ms)
+  Rendered partials/_navbar.html.erb (2.2ms)
+  Rendered partials/_contact.html.erb (1.3ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+  Rendered partials/_flash.html.erb (1.0ms)
+Completed 200 OK in 109ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:16:31 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (468.3ms)
+  Rendered welcome/index.html.erb within layouts/application (472.0ms)
+  Rendered partials/_navbar.html.erb (7.8ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 617ms (Views: 599.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:16:34 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (26.6ms)
+  Rendered partials/_navbar.html.erb (2.2ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+  Rendered partials/_flash.html.erb (0.7ms)
+Completed 200 OK in 104ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:19:24 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (736.0ms)
+  Rendered welcome/index.html.erb within layouts/application (739.5ms)
+  Rendered partials/_navbar.html.erb (7.7ms)
+  Rendered partials/_contact.html.erb (1.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 947ms (Views: 927.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:19:28 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (27.8ms)
+  Rendered partials/_navbar.html.erb (3.0ms)
+  Rendered partials/_contact.html.erb (1.6ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 107ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:22:21 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+DEPRECATION WARNING: Extra .css in SCSS/ERB file is unnecessary. Rename /Users/anderson/Documents/Apps/Soccer/soccer/app/assets/stylesheets/lightbox.css.scss.erb to /Users/anderson/Documents/Apps/Soccer/soccer/app/assets/stylesheets/lightbox.scss.erb. (called from _app_views_partials__carousel_html_erb___3876500640680877238_70220213525920 at /Users/anderson/Documents/Apps/Soccer/soccer/app/views/partials/_carousel.html.erb:11)
+DEPRECATION WARNING: Extra .css in SCSS/ERB file is unnecessary. Rename /Users/anderson/Documents/Apps/Soccer/soccer/app/assets/stylesheets/lightbox.css.scss.erb to /Users/anderson/Documents/Apps/Soccer/soccer/app/assets/stylesheets/lightbox.scss.erb. (called from _app_views_partials__carousel_html_erb___3876500640680877238_70220213525920 at /Users/anderson/Documents/Apps/Soccer/soccer/app/views/partials/_carousel.html.erb:11)
+  Rendered partials/_carousel.html.erb (601.1ms)
+  Rendered welcome/index.html.erb within layouts/application (605.1ms)
+  Rendered partials/_navbar.html.erb (7.8ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 755ms (Views: 736.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:22:25 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (31.7ms)
+  Rendered partials/_navbar.html.erb (2.5ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 108ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-12 12:23:07 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (28.5ms)
+  Rendered partials/_navbar.html.erb (2.1ms)
+  Rendered partials/_contact.html.erb (1.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+  Rendered partials/_flash.html.erb (0.9ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-22 11:51:10 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (3458.6ms)
+  Rendered welcome/index.html.erb within layouts/application (3473.2ms)
+  Rendered partials/_navbar.html.erb (7.5ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 4175ms (Views: 4135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-22 11:51:29 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (119.9ms)
+  Rendered partials/_navbar.html.erb (4.2ms)
+  Rendered partials/_contact.html.erb (1.7ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 247ms (Views: 209.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-22 11:51:34 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (24.4ms)
+  Rendered partials/_navbar.html.erb (4.1ms)
+  Rendered partials/_contact.html.erb (1.9ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 141ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-22 11:51:44 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (36.9ms)
+  Rendered partials/_navbar.html.erb (12.1ms)
+  Rendered partials/_contact.html.erb (1.8ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 167ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-22 11:51:47 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (59.5ms)
+  Rendered partials/_navbar.html.erb (2.5ms)
+  Rendered partials/_contact.html.erb (2.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.4ms)
+Completed 200 OK in 195ms (Views: 185.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery/index" for 127.0.0.1 at 2017-10-22 11:52:10 -0500
+Processing by GalleryController#index as HTML
+  Rendering gallery/index.html.erb within layouts/application
+  Rendered gallery/index.html.erb within layouts/application (28.4ms)
+  Rendered partials/_navbar.html.erb (4.0ms)
+  Rendered partials/_contact.html.erb (1.8ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 128ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-22 11:52:31 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (30.5ms)
+  Rendered partials/_navbar.html.erb (18.7ms)
+  Rendered partials/_contact.html.erb (8.8ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+  Rendered partials/_flash.html.erb (0.6ms)
+Completed 200 OK in 403ms (Views: 401.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-22 11:53:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_carousel.html.erb (20.3ms)
+  Rendered welcome/index.html.erb within layouts/application (37.0ms)
+  Rendered partials/_navbar.html.erb (3.9ms)
+  Rendered partials/_contact.html.erb (2.3ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+  Rendered partials/_flash.html.erb (0.5ms)
+Completed 200 OK in 128ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+

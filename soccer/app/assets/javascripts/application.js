@@ -14,6 +14,7 @@
 //= require turbolinks
 //= require jquery3
 //= require bootstrap
+//= require lightbox
 //= require_tree .
 
 
